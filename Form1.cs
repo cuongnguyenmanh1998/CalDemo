@@ -18,7 +18,11 @@ namespace CalDemo
 
         private void button1_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (textBox1.Text != "")
+=======
+            if (textBox1.Text != "" && textBox2.Text != "")
+>>>>>>> feature-add
             {
                 int a = int.Parse(textBox1.Text);
                 int b = int.Parse(textBox2.Text);
